@@ -14,5 +14,5 @@ jobs:
           publishedFileID: 2735854238
           path: portraits
         env:
-          STEAM_ACCOUNT_NAME: ${{ secrets.accountname }}
-          STEAM_PASSWORD: ${{ secrets.password }}
+          STEAM_ACCOUNT_NAME: ${{ secrets.ACCOUNTNAME }}
+          STEAM_PASSWORD: ${{ secrets.PASSWORD }}
